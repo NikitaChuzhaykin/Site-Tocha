@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <title>Tocha</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="container">
+            <div id="headerInner" class="header__inner">
+                <div class="header__logo">
+                    <a href="#"><img src="images/header/logo.png" alt="logo" draggable="false"></a>
+                </div>
+                <div class="header__menu">
+                    <div class="header__button">
+                        <button id="buttonAutorization" class="hbutton__entrance">Вход</button>
+                        <button id="buttonRegistration" class="hbutton__signup">Регистрация</button>
+                    </div>
+                </div>
+                <img id="headerBurger" src="images/header/burger.svg" alt="burger" class="header__burger" draggable="false">
+            </div>
+
+            <div id="headerInnerTwo" class="header__innerTwo dn">
+                <div class="header__logo">
+                    <a href="#"><img src="images/header/logo.png" alt="logo" draggable="false"></a>
+                </div>
+                <ul class="menu__list">
+                    <a class="menu__link" href=""><span>Подключение</span></a>
+                    <a class="menu__link" href="">Оплата</a>
+                    <a class="menu__link" href="">Контакты</a>
+                    <a class="menu__link" id="menuExit">Выход</a>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="button__modal" id="modalButton">
+        <div class="bmodal__window">
+            <img id="modalCancel" src="images/modal/cancel.svg" alt="cancel" class="bmodal__cancel" draggable="false">
+            <div class="bmodal__btn">
+                <button id="bmodalButtonAutorization" class="bmodal__buttonenter">Вход</button>
+                <button id="bmodalButtonRegistration" class="bmodal__buttonsign">Регистрация</button>
+            </div>
+        </div>
+        <div id="modalOverline" class="bmodal__overline"></div>
+    </div>
+
+    <div class="button__modal" id="modalMenu">
+        <div class="bmodal__window">
+            <img id="modalCancel" src="images/modal/cancel.svg" alt="cancel" class="bmodal__cancel" draggable="false">
+            <div class="bmodal__menu">
+                <a href="" class="bmenu__list"><span>Подключение</span></a>
+                <a href="" class="bmenu__list">Оплата</a>
+                <a href="" class="bmenu__list">Контакты</a>
+                <a id="menuExit" href="" class="bmenu__list">Выход</a>
+            </div>
+        </div>
+        <div id="modalOverline" class="bmodal__overline"></div>
+    </div>
+
+    <div class="regmodal" id="modalRegistration">
+        <div class="regmodal__window">
+            <img id="modalCancel" src="images/modal/cancel.svg" alt="cancel" class="regmodal__cancel" draggable="false">
+            <p class="regmodal__title">Регистрация</p>
+            <form action="" class="regmodal__form">
+                <div class="regmodal__box">
+                    <input data-number="true" class="regmodal__input" type="tel" placeholder="Телефон">
+                </div>
+
+                <div class="regmodal__box">
+                    <input data-mail="true" class="regmodal__input" type="text" placeholder="Электронная почта">
+                </div>
+                <div class="regmodal__box">
+                    <input id="regPassword" data-password="true" class="regmodal__input" type="password"
+                        placeholder="Пароль">
+                </div>
+                <div class="regmodal__box">
+                    <input id="regPasswordTwo" data-password="true" class="regmodal__input" type="password"
+                        placeholder="Повторите пароль">
+                </div>
+                <button class="regmodal__submit" type="submit">Войти</button>
+            </form>
+        </div>
+        <div id="modalOverline" class="regmodal__overline"></div>
+    </div>
+
+    <div class="regmodal" id="modalAutorization">
+        <div class="regmodal__window autor">
+            <img id="modalCancel" src="images/modal/cancel.svg" alt="cancel" class="regmodal__cancel" draggable="false">
+            <p class="regmodal__title">Вход</p>
+            <form action="" class="regmodal__form">
+                <div class="regmodal__box">
+                    <input data-number="true" id="modalNumber" class="regmodal__input" type="tel" placeholder="Телефон">
+                </div>
+                <div class="regmodal__box">
+                    <input data-required="true" class="regmodal__input" type="password" placeholder="Пароль">
+                </div>
+                <a href="" class="regmodal__pass">Напомнить пароль</a>
+                <button class="regmodal__submit" type="submit">Войти</button>
+            </form>
+        </div>
+        <div id="modalOverline" class="regmodal__overline"></div>
+    </div>
+
+
+
+    <section class="main">
+        <div class="main__background">
+            <div class="container">
+                <div class="main__inner">
+                    <div>
+                        <h1 class="main__title">Telegram чат<br><span>на вашем сайте</span></h1>
+                        <p class="main__subtitle">Общение с клиентами станет простым
+                            и удобным, а подключение займет 5 минут.
+                            Первый месяц — <span>бесплатно!</span></p>
+                        <button class="main__plug">Подключить</button>
+                    </div>
+                    <div>
+                        <img src="images/main/phone.png" alt="phone" class="main__phone" draggable="false">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="container">
+            <div class="info__inner">
+                <div>
+                    <p class="info__title">Tocha Online — это</p>
+                    <div class="info__card">
+
+                        <div class="icard">
+                            <img src="images/info/icon/NothingSuperfluous.svg" alt="NothingSuperfluous" class="icard__img one" draggable="false"> 
+                            <div>
+                                <p class="icard__title">Ничего лишнего</p>
+                                <p class="icard__subtitle">Отсутствие лишних приложений для операторов.
+                                    Оператору не нужно учиться работать с чатом</p>
+                            </div>
+                        </div>
+
+                        <div class="icard">
+                            <img src="images/info/icon/Simplicity.svg" alt="Simplicity" class="icard__img" draggable="false">
+                            <div>
+                                <p class="icard__title">Простота</p>
+                                <p class="icard__subtitle">Простая установка на сайт</p>
+                            </div>
+                        </div>
+
+                        <div class="icard">
+                            <img src="images/info/icon/SeveralAssistants.svg" alt="SeveralAssistants" class="icard__img" draggable="false">
+                            <div>
+                                <p class="icard__title">Несколько ассистентов</p>
+                                <p class="icard__subtitle">Возможность подключения нескольких ассистентов</p>
+                            </div>
+                        </div>
+
+                        <div class="icard">
+                            <img src="images/info/icon/Customization.svg" alt="Customization" class="icard__img" draggable="false">
+                            <div>
+                                <p class="icard__title">Кастомизация</p>
+                                <p class="icard__subtitle">Настройка интерфейса под нужды сайта</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/info/phone.png" alt="phone" class="info__phone" draggable="false">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rates" class="rates">
+        <div class="container">
+            <div class="rates__inner">
+                <p class="rates__title">Тарифы</p>
+                <div class="rates__subtitle">Стоимость зависит от трафика сайта</div>
+                <div id="sliderCardOne" class="rates__card">
+                    <div class="rcard">
+                        <p class="rcard__overtitle">Бесплатно</p>
+                        <p class="rcard__title">Пробный период<br>на 1 месяц</p>
+                        <p class="rcard__subtitle">0₽/первый месяц</p>
+                        <button class="rcard__button">Подключить за 0₽</button>
+                    </div>
+
+                    <div class="rcard">
+                        <p class="rcard__overtitle">Базовый</p>
+                        <p class="rcard__title">Менее 1000<br>посещений в сутки</p>
+                        <p class="rcard__subtitle">200₽/месяц</p>
+                        <button class="rcard__button">Подключить за 200₽</button>
+                    </div>
+
+                    <div class="rcard">
+                        <p class="rcard__overtitle">Премиум</p>
+                        <p class="rcard__title">Более 1000<br>посещений в сутки</p>
+                        <p class="rcard__subtitle">0₽/первый месяц</p>
+                        <button class="rcard__button">Подключить за 0₽</button>
+                    </div>
+                </div>
+                <div id="sliderDotsOne" class="rates__dots">
+                    <div class="ratdots"></div>
+                    <div class="ratdots"></div>
+                    <div class="ratdots"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="steps">
+        <div class="container">
+            <div class="steps__inner">
+                <p class="steps__title">Всего 3 шага для подключения Telegram чата</p>
+                <div id="sliderCardThree" class="steps__card">
+                    <div class="scard">
+                        <img src="images/steps/icon/one.svg" alt="One" class="scard__icon" draggable="false">
+                        <p class="scard__title">Telegram bot</p>
+                        <p class="scard__subtitle">Вы создаёте Telegram бота для вашего сайта</p>
+                        <img src="images/steps/phoneOne.png" alt="phoneOne" class="scard__phone one" draggable="false">
+                    </div>
+
+                    <div class="scard   ">
+                        <img src="images/steps/icon/two.svg" alt="Two" class="scard__icon" draggable="false">
+                        <p class="scard__title">Подключение Tocha</p>
+                        <p class="scard__subtitle">Tocha подключает Telegram бота к вашиму сайту</p>
+                        <img src="images/steps/phoneTwo.png" alt="phoneTwo" class="scard__phone two" draggable="false">
+                    </div>
+
+                    <div class="scard">
+                        <img src="images/steps/icon/three.svg" alt="Three" class="scard__icon" draggable="false">
+                        <p class="scard__title">Telegram-чат</p>
+                        <p class="scard__subtitle">Консультант отвечает на вопросы посетителей сайта</p>
+                        <img src="images/steps/phoneThree.png" alt="phoneThree" class="scard__phone three" draggable="false">
+                    </div>
+                </div>
+            </div>
+            <div id="sliderDotsThree" class="steps__dots">
+                <div class="sdots dotsActive"></div>
+                <div class="sdots"></div>
+                <div class="sdots"></div>
+            </div>
+        </div>
+        </div>
+        <div class="steps__background"></div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__inner">
+                <img src="images/reviews/marks.png" alt="marks" class="reviews__marks" draggable="false">
+                <div class="reviews__title">Отзывы клиентов</div>
+                <div id="sliderCardTwo" class="reviews__card">
+
+                    <div class="revcard">
+                        <div class="revcard__background">
+                            <p class="revcard__title">Как же удобно!</p>
+                            <p class="revcard__subtitle">В рамках спецификации современных стандартов, базовые сценарии
+                                поведения пользователей, которые представляют собой яркий пример
+                                континентально-европейского типа политической культуры, будут преданы
+                                социально-демократической анафеме.</p>
+                        </div>
+                        <div class="revcard__inner">
+                            <img src="images/reviews/avatar/Anna.png" alt="avatar" class="revcard__img">
+                            <div>
+                                <p class="revcard__name">Анна Купер</p>
+                                <div class="revcard__site">romashka.ru</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="revcard">
+                        <div class="revcard__background">
+                            <p class="revcard__title">Теперь мы идем в ногу со временем</p>
+                            <p class="revcard__subtitle">А ещё интерактивные прототипы превращены в посмешище, хотя само
+                                их существование приносит несомненную пользу обществу. Банальные, но неопровержимые
+                                выводы, а также тщательные исследования конкурентов формируют сеть.</p>
+                        </div>
+                        <div class="revcard__inner">
+                            <img src="images/reviews/avatar/Andrey.png" alt="avatar" class="revcard__img" draggable="false">
+                            <div>
+                                <p class="revcard__name">Андрей Васильев</p>
+                                <div class="revcard__site">samogon-ont.ru</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sliderDotsTwo" class="reviews__dots">
+                    <div class="rdots dotsActive"></div>
+                    <div class="rdots"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="connection">
+        <div class="container">
+            <div class="connection__inner">
+                <div>
+                    <img src="images/connection/icon/phone.svg" alt="phone" class="connection__icon" draggable="false">
+                </div>
+                <div>
+                    <p class="connection__title">Подключите Telegram чат уже сегодня</p>
+                    <form id="cform" action="" class="connection__form">
+                        <div class="regmodal__box">
+                            <input type="email" data-mail="true" class="cform__input" placeholder="Введите e-mail">
+                        </div>
+                        <button type="submit" class="cform__submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div>
+                    <a href="#"><img src="images/footer/logo.png" alt="logo" class="footer__logo" draggable="false"></a>
+                </div>
+
+                <div class="footer__list">
+                    <div>
+                        <a href="" class="footer__title">Telegram чат</a>
+                        <ul class="footer__menu">
+                            <a href="">
+                                <li class="fmenu__link">О нас</li>
+                            </a>
+                            <a href="">
+                                <li class="fmenu__link">Партнеры</li>
+                            </a>
+                            <a href="">
+                                <li class="fmenu__link">Инструкция</li>
+                            </a>
+                            <a href="">
+                                <li class="fmenu__link">Цены</li>
+                            </a>
+                            <a href="">
+                                <li class="fmenu__link">Контакты</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="" class="footer__title">Поддержка</a>
+                        <ul class="footer__menu">
+                            <a href="">
+                                <li class="fmenu__link">Центр поддержки</li>
+                            </a>
+                            <a href="">
+                                <li class="fmenu__link">Политика<br>конфеденциальности</li>
+                            </a>
+                            <a href="">
+                                <li class="fmenu__link">Документы оферта</li>
+                            </a>
+                            <a href="">
+                                <li class="fmenu__link">Статус</li>
+                            </a>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="law">
+        <div class="container">
+            <div class="law__inner">
+                <p class="law__text">© 2021 Tocha. Все права защищены</p>
+            </div>
+        </div>
+    </section>
+    <script src="scripts/modal.js"></script>
+    <script src="scripts/slide.js"></script>
+</body>
+
+</html>

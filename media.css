@@ -1,0 +1,649 @@
+@media (max-width:1134px) {
+    .container {
+        max-width: 709px;
+    }
+
+    /*header*/
+    .header__inner {
+        column-gap: 297px;
+    }
+
+    .header__innerTwo {
+        column-gap: 100px;
+    }
+
+    .menu__list {
+        display: flex;
+        column-gap: 35px;
+    }
+
+    /*main*/
+    .main__title {
+        margin-top: 40px;
+        margin-bottom: 32px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .main__subtitle {
+        font-size: 18px;
+        line-height: 28px;
+        width: 270px;
+    }
+
+    .main__phone {
+        width: 420px;
+        height: 338px;
+        top: 45px;
+    }
+
+    .main__background {
+        height: 478px;
+        background-image: url("https://nikitachuzhaykin.github.io/Site-Tocha/images/main/background2.jpg");
+    }
+
+    /*info*/
+    .info {
+        padding-bottom: 60px;
+    }
+
+    .info__inner {
+        column-gap: 2px;
+    }
+
+    .info__title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .icard {
+        margin-bottom: 16px;
+    }
+
+    .icard__subtitle {
+        width: 301px;
+    }
+
+    .icard__img {
+        width: 42px;
+        height: 42px;
+        margin-top: 10px;
+    }
+
+    .icard__img.one {
+        margin-top: 27px;
+    }
+
+    .info__phone {
+        width: 300px;
+        height: 487px;
+    }
+
+    /*rates*/
+    .rates {
+        margin-bottom: 54px;
+    }
+
+    .rates__card {
+        column-gap: 15px;
+        justify-content: center;
+    }
+
+    .rates__title {
+        margin-top: 54px;
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 8px;
+    }
+
+    .rates__subtitle {
+        margin-bottom: 36px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .rcard.three {
+        display: none;
+    }
+
+    .rates__dots {
+        display: flex;
+        justify-content: center;
+        column-gap: 12px;
+    }
+
+
+    .ratdots {
+        box-sizing: border-box;
+        width: 10px;
+        height: 10px;
+        opacity: 0.5;
+        border: 2px solid #685ED6;
+        border-radius: 100px;
+        cursor: pointer;
+        margin-top: 24px;
+    }
+
+    .ratdots.active {
+        background: #685ED6;
+        border: 1px solid #685ED6;
+    }
+
+    /*steps*/
+    .steps {
+        padding-bottom: 57px;
+    }
+
+    .steps__title {
+        font-size: 32px;
+        line-height: 40px;
+        width: 619px;
+        margin: 0 auto;
+    }
+
+    .steps__card {
+        column-gap: 27px;
+        justify-content: center;
+        margin-top: 39px;
+    }
+
+    .scard__line {
+        display: none;
+    }
+
+    .scard.one {
+        margin-right: 0px;
+    }
+
+    .scard.two {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .scard__subtitle {
+        width: 238px;
+    }
+
+    .scard__phone {
+        width: 211px;
+        height: 422px;
+    }
+
+    .scard__phone.one,
+    .scard__phone.two,
+    .scard__phone.three {
+        margin-top: 16px;
+        margin-left: 10px;
+    }
+
+    .steps__phone {
+        display: flex;
+        column-gap: 20px;
+        margin-top: 16px;
+    }
+
+    .steps__background {
+        height: 370px;
+    }
+
+    .sphone {
+        width: 211px;
+        height: 422px;
+    }
+
+    /*reviews*/
+    .vreviews {
+        padding-bottom: 60px;
+    }
+
+    .reviews__title {
+        padding-top: 49px;
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .reviews__marks {
+        width: 112px;
+        height: 95px;
+        top: 10px;
+    }
+
+    .revcard.one {
+        margin: 0 auto;
+    }
+
+    .revcard.two {
+        display: none;
+    }
+
+    /*connection*/
+    .connection {
+        padding-bottom: 54px;
+    }
+
+    .connection__inner {
+        margin-top: 54px;
+        column-gap: 0px;
+    }
+
+    .connection__icon {
+        margin-left: 30px;
+        margin-top: 16px;
+    }
+
+    .connection__title {
+        font-size: 24px;
+        line-height: 32px;
+        width: 300px;
+    }
+
+    .cform__input {
+        width: 210px;
+        position: relative;
+    }
+
+    .cform__submit {
+        top: 146px;
+        right: 14px;
+    }
+
+    /*footer*/
+    .footer__logo {
+        margin-right: 152px;
+    }
+
+    .footer__list {
+        column-gap: 20px;
+    }
+}
+
+
+@media (max-width:766px) {
+    .container {
+        max-width: 330px;
+        padding: 0 10px;
+    }
+
+    /*header*/
+    .header__button {
+        display: none;
+    }
+
+    .header__inner {
+        position: relative;
+    }
+
+    .header__innerTwo {
+        display: none;
+    }
+
+    .header__burger {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 40px;
+        cursor: pointer;
+    }
+
+    .header__inner {
+        display: block;
+        padding-bottom: 40px;
+    }
+
+    .header__logo {
+        width: 95px;
+        height: 30px;
+    }
+
+    /*main*/
+    .main__background {
+        height: 720px;
+        background-image: url("https://nikitachuzhaykin.github.io/Site-Tocha/images/main/background2.jpg");
+    }
+
+    .main__inner {
+        display: block;
+    }
+
+    .main__title {
+        margin-top: 0px;
+    }
+
+    .main__plug {
+        margin-bottom: 48px;
+    }
+
+    .main__phone {
+        width: 330px;
+        height: 266px;
+        position: static;
+        margin: 0 auto;
+    }
+
+    /*info*/
+    .info__inner {
+        display: block;
+    }
+
+    .info__title {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+
+    .icard {
+        column-gap: 10px;
+        margin-bottom: 16px;
+    }
+
+    .icard__title {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .icard__subtitle {
+        width: 246px;
+    }
+
+    .icard__img.one {
+        margin-top: 34px;
+    }
+
+    .info__phone {
+        margin-top: 8px;
+        align-items: center;
+    }
+
+    /*rates*/
+    .rates__subtitle {
+        margin-bottom: 32px;
+    }
+
+    .rcard {
+        width: 284px;
+    }
+
+    .rcard__overtitle {
+        width: 284px;
+    }
+
+    .rcard__button {
+        width: 250px;
+    }
+
+    /*steps*/
+    .steps__title {
+        width: 261px;
+    }
+
+    .scard.two,
+    .scard.three {
+        display: none;
+    }
+
+    .sphone.two,
+    .sphone.three {
+        display: none;
+    }
+
+    .steps__phone {
+        justify-content: center;
+    }
+
+    .scard__phone.one,
+    .scard__phone.two,
+    .scard__phone.three {
+        margin-right: 10px;
+    }
+
+    .steps__card {
+        margin-top: 24px;
+    }
+
+    .sdots.active {
+        background: #685ED6;
+        border: 1px solid #685ED6;
+    }
+
+    /*reviews*/
+    .reviews {
+        padding-bottom: 51px;
+    }
+
+    .reviews__marks {
+        width: 54px;
+        height: 46px;
+    }
+
+
+    .revcard__background {
+        background-image: url("https://nikitachuzhaykin.github.io/Site-Tocha/images/reviews/revcard__background2.png");
+        width: 309px;
+        height: 330px;
+    }
+
+    .revcard__inner {
+        width: 287px;
+    }
+
+    .reviews__card {
+        width: 318px;
+    }
+
+    .revcard {
+        width: 316px;
+    }
+
+    .steps__background {
+        height: 395px;
+    }
+
+    .revcard__subtitle {
+        font-size: 14px;
+        line-height: 24px;
+        width: 303px;
+    }
+
+    /*connection*/
+    .connection__inner {
+        background-image: url("https://nikitachuzhaykin.github.io/Site-Tocha/images/connection/background2.jpg");
+        height: 510px;
+        display: block;
+    }
+
+    .connection__icon {
+        margin-left: 0;
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
+
+    .connection__title {
+        margin-top: 0;
+        margin-left: 31px;
+        width: 270px;
+        margin-bottom: 0px;
+    }
+
+    .connection__form {
+        margin-top: 16px;
+        margin-left: 31px;
+    }
+
+    .cform__input {
+        width: 141px;
+        height: 44px;
+        position: relative;
+    }
+
+    .errorImg {
+        top: 47px;
+    }
+
+    .labelError {
+        margin-top: 6px;
+    }
+
+    .cform__input[type="email"] {
+        margin-bottom: -3px;
+    }
+
+
+    .cform__submit {
+        position: absolute;
+        width: 120px;
+        height: 44px;
+        top: 417px;
+        right: 17px;
+    }
+
+    /*footer*/
+    .footer__list {
+        display: block;
+    }
+
+}
+
+@media (max-width:500px) {
+
+    /*modal*/
+    .regmodal__window {
+        width: 270px;
+        height: 580px;
+    }
+
+    .regmodal__window.autor {
+        height: 470px;
+    }
+
+
+    .regmodal__box {
+        margin-bottom: 10px;
+    }
+
+    .errorImg {
+        left: 12px;
+    }
+
+    .labelError {
+        padding-left: 35px;
+    }
+
+    .regmodal__input,
+    .regmodal__submit {
+        width: 248px;
+    }
+
+    .regmodal__pass {
+        margin-right: 14px;
+    }
+
+    .errorImg {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:344px) {
+    .icard__subtitle {
+        width: 202px;
+    }
+
+    .rcard {
+        width: 234px;
+    }
+
+    .rcard__overtitle {
+        width: 234px;
+    }
+
+
+    .rcard__button {
+        width: 201px;
+    }
+
+    .revcard {
+        width: 291px;
+    }
+
+    .revcard__background {
+        width: 290px;
+        height: 353px;
+    }
+
+    .revcard__subtitle {
+        width: 233px;
+    }
+
+    .connection__title {
+        width: 236px;
+        font-size: 20px;
+    }
+
+    .cform__submit {
+        width: 70px;
+        font-size: 12px;
+        right: 67px;
+    }
+
+    .footer {
+        padding-bottom: 403px;
+    }
+
+    .footer__list {
+        position: absolute;
+        right: 9px;
+        display: block;
+    }
+
+}
+
+@media (max-width:330px) {
+    .revcard {
+        width: 260px;
+        display: block;
+        margin: 0 auto;
+        margin-left: 4px;
+    }
+
+    .revcard__background {
+        width: 251px;
+    }
+
+    .connection__inner {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .cform__submit {
+        top: 365px;
+        right: 8px;
+    }
+
+    .reviews__card {
+        margin-left: 16px;
+    }
+
+    .reviews__card {
+        width: 257px;
+    }
+
+    .steps {
+        padding-bottom: 57px;
+    }
+}
+
+@media (max-width:280px) {
+    .reviews__card {
+        margin-left: -20px;
+    }
+
+    .revcard__background {
+        width: 269px;
+        margin-left: 16px;
+    }
+
+    .revcard {
+        margin-left: 0;
+    }
+}
